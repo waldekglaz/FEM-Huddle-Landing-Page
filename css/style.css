@@ -166,6 +166,11 @@ select {
   width: 2.22875rem;
 }
 
+.diagrams__icon:last-child {
+  width: 1.9375rem;
+  height: 1.9375rem;
+}
+
 .diagrams__number {
   font-weight: 700;
   font-size: 3.809375rem;
@@ -178,5 +183,26 @@ select {
 
 .diagrams__box:first-child {
   margin-bottom: 5.5rem;
+}
+
+.grow {
+  padding: 13.38875rem 0 8.3125rem;
+}
+
+.grow__img {
+  width: 17.5rem;
+  height: 100%;
+  margin: 0 auto 2.5rem;
+}
+
+.section__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.section__text {
+  line-height: 1.3125rem;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */
