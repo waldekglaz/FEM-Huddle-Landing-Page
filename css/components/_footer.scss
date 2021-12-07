@@ -18,14 +18,26 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 6.5rem;
+  position: relative;
 }
 input[type="email"] {
   border-radius: 6px;
   width: 100%;
-  height: 48px;
+  height: 3rem;
   padding: 0.5rem;
   margin-bottom: 1rem;
   font-weight: 700;
+}
+.err-msg {
+  display: none;
+  position: absolute;
+  top: 3rem;
+  color: $clr-Red;
+  font-size: 12px;
+}
+
+.err {
+  display: block;
 }
 
 button[type="submit"] {
