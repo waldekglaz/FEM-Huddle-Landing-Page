@@ -45,9 +45,34 @@
     margin-bottom: 2rem;
   }
 }
-
-.section {
-  img {
-    width: 100%;
+.section-image {
+  width: 100%;
+}
+.mockups {
+  margin-bottom: 3rem;
+}
+.counters {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25%;
+  .counter {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    img {
+      width: 2rem;
+      margin-left: 0;
+    }
+    .counter-value {
+      font-size: 3rem;
+      font-weight: 900;
+    }
   }
+}
+.grow-together {
+  padding-top: 3rem;
+  background-image: url("../images/bg-section-top-mobile-1.svg");
+  background-position: top;
+  background-size: contain;
 }
