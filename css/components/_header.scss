@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__img {
+  width: 6rem;
+  height: auto;
+}
+.header__btn-link {
+  font-size: 0.588125rem;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0.330625rem 1.14rem;
+  border: 0.588235px solid $clr-Pink;
+  color: $clr-Pink;
+  box-shadow: 0px 0px 5px rgba(255, 82, 193, 0.218778);
+  border-radius: 11.7647px;
+}
