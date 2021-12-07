@@ -1,0 +1,18 @@
+.diagrams {
+  padding: 0 5.25rem;
+}
+.diagrams__icon {
+  height: 2.22875rem;
+  width: 2.22875rem;
+}
+.diagrams__number {
+  font-weight: 700;
+  font-size: 3.809375rem;
+}
+.diagrams__text {
+  color: $cl-Gray;
+  font-size: 0.9523812rem;
+}
+.diagrams__box:first-child {
+  margin-bottom: 5.5rem;
+}

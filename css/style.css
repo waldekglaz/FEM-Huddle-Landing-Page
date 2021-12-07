@@ -115,7 +115,7 @@ select {
 }
 
 .hero {
-  padding: 0 1rem;
+  padding: 0 1rem 7.5rem;
 }
 
 .hero__title {
@@ -155,5 +155,28 @@ select {
   background-color: #ff52c1;
   -webkit-box-shadow: 0px 3px 7px rgba(0, 37, 46, 0.223053);
           box-shadow: 0px 3px 7px rgba(0, 37, 46, 0.223053);
+}
+
+.diagrams {
+  padding: 0 5.25rem;
+}
+
+.diagrams__icon {
+  height: 2.22875rem;
+  width: 2.22875rem;
+}
+
+.diagrams__number {
+  font-weight: 700;
+  font-size: 3.809375rem;
+}
+
+.diagrams__text {
+  color: #808e9a;
+  font-size: 0.9523812rem;
+}
+
+.diagrams__box:first-child {
+  margin-bottom: 5.5rem;
 }
 /*# sourceMappingURL=style.css.map */
