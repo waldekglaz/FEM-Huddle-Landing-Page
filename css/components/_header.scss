@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding: 1.5rem;
 }
 .header__img {
@@ -17,4 +18,25 @@
   color: $clr-Pink;
   box-shadow: 0px 0px 5px rgba(255, 82, 193, 0.218778);
   border-radius: 11.7647px;
+  &:hover {
+    color: $clr-Pink-Hover;
+    border-color: $clr-Pink-Hover;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    padding: 2.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  .header {
+    padding: 4.875rem 5rem;
+  }
+  .header__img {
+    width: 15rem;
+  }
+  .header__btn-link {
+    font-size: 1rem;
+    border-radius: 20px;
+  }
 }

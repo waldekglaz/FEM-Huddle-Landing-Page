@@ -14,9 +14,40 @@
   font-size: 3.809375rem;
 }
 .diagrams__text {
-  color: $cl-Gray;
+  color: $clr-Gray;
   font-size: 0.9523812rem;
 }
 .diagrams__box:first-child {
   margin-bottom: 5.5rem;
+}
+@media (min-width: 768px) {
+  .diagrams {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto 0;
+    max-width: 36rem;
+  }
+}
+@media (min-width: 1024px) {
+  .diagrams {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50rem;
+  }
+}
+@media (min-width: 1440px) {
+  .diagrams {
+    max-width: 55rem;
+    margin: 7.5rem auto 0;
+  }
+  .diagrams__icon {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  .diagrams__number {
+    font-size: 6rem;
+  }
+  .diagrams__text {
+    font-size: 1.5rem;
+  }
 }

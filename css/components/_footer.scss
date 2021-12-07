@@ -22,9 +22,12 @@
 input[type="email"] {
   border-radius: 6px;
   width: 100%;
-  min-height: 48px;
+  height: 48px;
+  padding: 0.5rem;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
+
 button[type="submit"] {
   width: 10rem;
   border-radius: 5px;
@@ -75,5 +78,36 @@ button[type="submit"] {
   a {
     color: $clr-Pink;
     text-decoration: none;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2.25rem;
+  }
+  .newsletter,
+  .contact-details {
+    flex-basis: 45%;
+  }
+}
+@media (min-width: 1440px) {
+  .footer {
+    padding: 4rem 7.5rem;
+  }
+  .newsletter,
+  .contact-details {
+    width: 21.25rem;
+  }
+  .fab {
+    font-size: 2rem;
+    transition: 0.2s;
+    &:hover {
+      color: $clr-Pink-Hover;
+    }
+  }
+  .contact__icon {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
