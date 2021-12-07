@@ -1,10 +1,12 @@
 .hero {
-  padding: 0 1rem 7.5rem;
+  padding: 0 2.5rem 7.5rem;
 }
-.hero__title {
+.title--main {
   font-family: $font-headings;
   font-size: 1.5rem;
   line-height: 2.25rem;
+}
+.hero__title {
   margin: 7rem 0 1.5rem;
 }
 .hero__text {
