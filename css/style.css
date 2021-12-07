@@ -189,7 +189,7 @@ select {
   padding: 13.38875rem 0 8.3125rem;
 }
 
-.grow__img {
+.section__img {
   width: 17.5rem;
   height: 100%;
   margin: 0 auto 2.5rem;
@@ -204,5 +204,9 @@ select {
 .section__text {
   line-height: 1.3125rem;
   font-weight: 400;
+}
+
+.flowing {
+  padding: 4.1875rem 0.25rem 7.5rem;
 }
 /*# sourceMappingURL=style.css.map */
