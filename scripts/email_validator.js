@@ -1,10 +1,3 @@
-// const btn = document.querySelector('.form__btn');
-// const email = document.querySelector('#email')
-
-// btn.addEventListener('click', (e)=>{
-// e.preventDefault();
-// })
-
 const errorMsg = document.querySelector(".err-msg")
 const email = document.querySelector('#email')
 const submitBtn = document.querySelector('.form__btn')
