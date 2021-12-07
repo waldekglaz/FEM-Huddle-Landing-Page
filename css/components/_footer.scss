@@ -75,6 +75,9 @@ button[type="submit"] {
 .attribution {
   text-align: center;
   line-height: 1.5rem;
+  background-color: $clr-Black;
+  color: $clr-GreyWhite;
+  font-size: 0.7rem;
   a {
     color: $clr-Pink;
     text-decoration: none;

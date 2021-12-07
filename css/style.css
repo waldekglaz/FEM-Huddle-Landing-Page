@@ -499,6 +499,9 @@ button[type="submit"] {
 .attribution {
   text-align: center;
   line-height: 1.5rem;
+  background-color: #00252e;
+  color: #f2f2f2;
+  font-size: 0.7rem;
 }
 
 .attribution a {
