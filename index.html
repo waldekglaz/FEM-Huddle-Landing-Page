@@ -13,15 +13,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
-  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/brands.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="body">
   <div class="container">
     <header class="header">
-      <img src="images/logo.svg" alt="Huddle logo" class="header__img">
+      <img src="images/logo.svg" alt="Huddle logo" class="header__logo">
       <a href="" class="header__btn-link">Try it free</a>
     </header>
     <div class="hero">
@@ -87,6 +86,7 @@
           We’ll never
           send you spam or pass on your email address</p>
         <form action="/action_page.php" class="form">
+          <label class="hidden" for="email">email</label>
           <input type="email" name="email" id="email" class="form__input">
           <p class="err-msg">Check your email please</p>
           <button class="btn btn--pink form__btn" type="submit">Subscribe</button>
@@ -116,8 +116,10 @@
 
     </footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://www.frontendmentor.io/profile/waldekglaz" target="_blank">Waldemar Głaz</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
+        Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/waldekglaz" target="_blank" rel="noopener">Waldemar
+        Głaz</a>.
     </p>
   </div>
   <script src="scripts/email_validator.js"></script>

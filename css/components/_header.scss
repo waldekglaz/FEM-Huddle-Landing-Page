@@ -5,9 +5,9 @@
   align-items: center;
   padding: 1.5rem;
 }
-.header__img {
+.header__logo {
   width: 6rem;
-  height: auto;
+  height: 1rem;
 }
 .header__btn-link {
   font-size: 0.588125rem;
@@ -32,8 +32,9 @@
   .header {
     padding: 4.875rem 5rem;
   }
-  .header__img {
+  .header__logo {
     width: 15rem;
+    height: 2.375rem;
   }
   .header__btn-link {
     font-size: 1rem;
